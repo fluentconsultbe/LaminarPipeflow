@@ -1,4 +1,5 @@
 # LaminarPipeflow
+
 A verification study of incompressible, fully developed laminar flow in a circular pipe.  
 
 The simulation performed in __Ansys Fluent__ is compared to the analytical Hagen–Poiseuille solution for velocity profile and pressure drop.
@@ -27,12 +28,15 @@ The inlet velocity and fluid properties are chosen such that the Reynolds number
 
 The velocity profile is given by:
 
-$$u(r) = U_{\max}\left(1 - \left(\frac{r}{R}\right)^2\right)$$
+$$u(r) = U_{\max}\left(1 - \left(\frac{r}{R}\right)^2\right)\qquad (1)$$
 
 The pressure drop as given by the Hagen–Poiseuille equation is:
 
-$$\Delta p = \frac{32 \mu U L}{D^2}$$
+$$\Delta p = \frac{32 \mu U L}{D^2}\qquad(2)$$
 
 , where L is the length of the pipe.
 
 Expression (1) and (2) serves as the reference for validation.
+
+---
+
