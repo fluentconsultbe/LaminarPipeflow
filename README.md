@@ -27,12 +27,12 @@ The inlet velocity and fluid properties are chosen such that the Reynolds number
 
 The velocity profile is given by:
 
-$$u(r) = U_{\max}\left(1 - \left(\frac{r}{R}\right)^2\right)\tag{1}$$
-
-![[Pasted image 20260508112340.png|419]]
+$$u(r) = U_{\max}\left(1 - \left(\frac{r}{R}\right)^2\right)$$
 
 The pressure drop as given by the Hagen–Poiseuille equation is:
 
-$$\Delta p = \frac{32 \mu U L}{D^2}\tag{2}$$, where L is the length of the pipe.
+$$\Delta p = \frac{32 \mu U L}{D^2}$$
+
+, where L is the length of the pipe.
 
 Expression (1) and (2) serves as the reference for validation.
