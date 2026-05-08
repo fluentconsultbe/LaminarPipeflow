@@ -7,6 +7,7 @@ The simulation performed in __Ansys Fluent__ is compared to the analytical Hagen
 
 <img width="1189" height="539" alt="Pasted image 20260507111542" src="https://github.com/user-attachments/assets/60136a45-0bf9-4677-bc17-b2c538a09ea8" />
 
+
 The length of the pipe, L, is chosen such as to ensure fully developed flow at the outlet
 
 **Flow Regime**  
