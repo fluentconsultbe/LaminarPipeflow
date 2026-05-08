@@ -1,6 +1,5 @@
 # LaminarPipeflow
-A verification study of incom
-pressible, fully developed laminar flow in a circular pipe.  
+A verification study of incompressible, fully developed laminar flow in a circular pipe.  
 
 The simulation performed in __Ansys Fluent__ is compared to the analytical Hagen–Poiseuille solution for velocity profile and pressure drop.
 
