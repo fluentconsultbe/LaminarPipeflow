@@ -1,0 +1,12 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by Ansys Workbench.
+# Project name: laminar_flow
+# Creation date: 05/06/2026 21:35:55
+# 
+# 05/06/2026 21:35:55
+# The parameters defined in the project are:
+# ,P2 - XYPlane.V2 [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P2
+DP 0,0.05

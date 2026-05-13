@@ -9,7 +9,10 @@ The simulation performed in __Ansys Fluent__ is compared to the analytical Hagen
 <img width="1189" height="539" alt="Pasted image 20260507111542" src="https://github.com/user-attachments/assets/60136a45-0bf9-4677-bc17-b2c538a09ea8" />
 
 
-The length of the pipe, L, is chosen such as to ensure fully developed flow at the outlet
+The length of the pipe, $L$, is chosen such as to ensure fully developed flow at the outlet. 
+
+$$L=1\; m$$
+$$R=0.05\;m$$
 
 **Flow Regime**  
 The Reynolds number is defined as:
@@ -34,7 +37,7 @@ The pressure drop as given by the Hagen–Poiseuille equation is:
 
 $$\Delta p = \frac{32 \mu U L}{D^2}\qquad(2)$$
 
-, where L is the length of the pipe.
+, where $L$ is the length of the pipe.
 
 Expression (1) and (2) serves as the reference for validation.
 
@@ -103,14 +106,16 @@ To demonstrate that the numerical solution is not sensitive to the chosen mesh, 
 This step shows that the final mesh is not just “good looking” but **quantitatively sufficient** for validating the laminar pipe‑flow solution.
 # 3. Boundary Conditions
 
-**Inlet**
+![[Pasted image 20260510114334.png]]
 
-- Velocity inlet
-- Uniform axial velocity $U$
+**Inlet** ( Blue arrows )
+
+- Velocity at the inlet is set to $1\frac{mm}{s}=0.001 \; \frac{m}{s}$
+- a uniform axial velocity $U$ is assumed.
 
 **Outlet**
 
-- Pressure outlet 0 gauge pressure
+- Pressure at the outlet is set to 0 __gauge pressure__ aka atmospheric pressure.
 - Fully developed flow expected
 
 **Wall**
@@ -130,8 +135,8 @@ This step shows that the final mesh is not just “good looking” but **quantit
 Assumption: 
 
 - Steady‑state
-- Incompressible
-- Laminar model
+- Incompressible fluid
+- Laminar model 
 
 **Numerics**
 
@@ -146,8 +151,11 @@ Assumption:
 - Linear pressure drop along pipe
 # VALIDATION
 
-ToDo
+![[Pasted image 20260511133411.png]]
+
+
+$$\Delta p = \frac{32 \mu U L}{D^2}\qquad(2)=\frac{32\cdot0.001\, Pa\cdotp s\cdot 0.001\frac{m}{s}\cdot 1\, m}{(0.10\,m)^2}=0.0032\, Pa$$
+
 # COMPARISON
 
 ToDo
-
